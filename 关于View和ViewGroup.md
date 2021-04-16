@@ -16,6 +16,6 @@
 
 ## 关于结构
 1. 从继承关系上来讲, 结构如下所示
-![继承图](./关于View和ViewGroup/View和ViewGroup-继承关系.png)
+![继承图](关于View和ViewGroup/View和ViewGroup-继承关系.png)
 2. 从逻辑上来讲, 结构如下所示
-![逻辑图](./关于View和ViewGroup/View和ViewGroup-逻辑关系.png)
+![逻辑图](关于View和ViewGroup/View和ViewGroup-逻辑关系.png)

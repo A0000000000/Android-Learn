@@ -4,7 +4,7 @@
 * ViewRootImpl不是一个View
 * ViewRootImpl是用来管理View树的
 * 关于View与Activity之间的关系, 如下图所示
-![关于View与Activity的关系](./关于ViewRootImpl/View与Activity的关系.png)
+![关于View与Activity的关系](关于ViewRootImpl/View与Activity的关系.png)
 
 ## 关于ViewRootImpl和DecorView
 * ViewRootImpl: 
