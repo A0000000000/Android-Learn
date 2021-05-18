@@ -67,4 +67,14 @@
     2. attach(7327 -> 7336)
 2. ActivityManagerService
     1. attachApplication(5757 -> 5765)
-    2. attachApplicationLocked(5315)
+    2. attachApplicationLocked(5315 -> 5685)
+3. ActivityTaskManagerService
+    1. attachApplication(6884 -> 6890)
+4. ActivityStackSupervisor
+    1. realStartActivityLocked(718 -> 842 -> 863)
+5. TransactionExecutor
+    1. execute((69 -> 95 -> 97))
+    2. executeCallbacks(104 -> 135)
+6. ActivityThread
+    1. handleLaunchActivity(3573): 此时App进程已经创建完成, 待启动的Activity也已经做好启动的准备工作了
+    
